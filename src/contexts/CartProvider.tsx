@@ -1,9 +1,15 @@
 import { createContext, ReactNode, useEffect, useReducer } from 'react'
-import type { OrderInfo } from '../pages/Cart'
-import { cartReducer, type Item, type Order } from '../reducers/cart/reducer'
-import { useNavigate } from 'react-router-dom'
-import { addItemAction, checkoutCartAction, decrementItemQuantityAction, incrementItemQuantityAction, removeItemAction } from '../reducers/cart/actions'
 
+import {
+  addItemAction,
+  checkoutCartAction,
+  decrementItemQuantityAction,
+  incrementItemQuantityAction,
+  removeItemAction,
+} from '../reducers/cart/actions'
+import { cartReducer, Item, Order } from '../reducers/cart/reducer'
+import { OrderInfo } from '../pages/Cart'
+import { useNavigate } from 'react-router-dom'
 
 interface CartContextType {
   cart: Item[]

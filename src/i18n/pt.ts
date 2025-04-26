@@ -13,9 +13,11 @@ export const texts = {
   },
   checkoutText: {
     title: 'Complete seu pedido',
+    Delivery: 'Entrega',
     addressSection: 'Endereço de Entrega',
     paymentSection: 'Pagamento',
     addressPayment: 'Informe o Endereço onde deseja receber seu pedido',
+    FinashPayment: "O pagamento é feito na entrega. Escolha a forma que deseja pagar",
   },
   success: {
     title: 'Uhu! Pedido confirmado',
@@ -25,6 +27,21 @@ export const texts = {
     empty: 'Seu carrinho está vazio 😢',
     errorCart: 'É preciso ter pelo menos um item no carrinho',
     total: 'Total',
+    totalItems: 'Total de itens',
     confirm: 'Confirmar pedido',
   },
+  payment: {
+    credit: 'Cartão de Crédito',
+    debit: 'Cartão de Débito',
+    cash: 'Dinheiro',
+    orderConfirmed: 'Uhu! Pedido confirmado',
+    nowCoffee: 'Agora é só aguardar que logo o café chegará até você',
+    deliveryIn: 'Entrega em',
+    deliveryForecast: 'Previsão de entrega',
+    paymentOnDelivery: 'Pagamento na entrega',
+  },
+  selectCoffee: {
+    titleCoffee: 'Cafés selecionados',
+    remove: 'Remover',
+  }
 }

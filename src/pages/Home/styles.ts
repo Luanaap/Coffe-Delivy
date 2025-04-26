@@ -48,7 +48,7 @@ export const Heading = styled.div`
 `;
 
 export const Info = styled.div`
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 20px;
 
